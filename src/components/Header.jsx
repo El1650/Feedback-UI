@@ -9,7 +9,6 @@ function Header({ text, bgColor, textColor }) {
   return (
     <header style={headerStyles}>
       <div className="container">
-        <h2>Feedback App</h2>
         <h2>{text}</h2>
       </div>
     </header>
@@ -17,8 +16,8 @@ function Header({ text, bgColor, textColor }) {
 }
 
 Header.defaultProps = {
-  text: "Hello lover",
-  bgColor: "rgba(0,0,76,0.4)",
+  text: "Feedback App",
+  bgColor: "rgba(0,0,0,0.4)",
   textColor: "#ff6a95",
 };
 
